@@ -1,14 +1,7 @@
 var dataBase;
 var background_img;
 var gameState = 0;
-var form, game, player;
-var ballon
-var ballonGroup;
-var person;
-var persons;
-var person1, person2, person3;
-var personGroup;
-
+var form, game, person;
 
 
 function preload(){
@@ -17,19 +10,20 @@ function preload(){
 
 
 
-
-
 function setup() {
   createCanvas(800,400);
-    dataBase = firebase.database();
       game = new Game();
-      game.getState();
-      game.start();
-
+      game.start()
 }
 
 function draw() {
-  background(background_img); 
+  background(0); 
+
+  
+
+  if(gameState === 1){
+    game.play()
+  }
 
   drawSprites();
 }
