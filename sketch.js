@@ -16,21 +16,21 @@ function preload(){
  
   pathImg = loadImage("imagens/path.gif");
  
-  witch = loadImage("imagens/Blue Witch/B_witch_idle.png");
-  witchCharge = loadImage("imagens/Blue Witch/B_witch_charge.png");
-  witchAttack = loadImage("imagens/Blue Witch/B_witch_attack.png");
+  //witch = loadImage("imagens/Blue Witch/B_witch_idle.png");
+  //witchCharge = loadImage("imagens/Blue Witch/B_witch_charge.png");
+  //witchAttack = loadImage("imagens/Blue Witch/B_witch_attack.png");
 
-  soldier = loadImage("imagens/Bot Wheel/static idle.png");
-  soldierWake = loadImage("imagens/Bot Wheel/wake.png");
-  soldierCharge = loadImage("imagens/Bot Wheel/charge.png");
-  soldierShoot = loadImage("imagens/Bot Wheel/shoot with FX.png");
+//  soldier = loadImage("imagens/Bot Wheel/static idle.png");
+  //soldierWake = loadImage("imagens/Bot Wheel/wake.png");
+  //soldierCharge = loadImage("imagens/Bot Wheel/charge.png");
+  //soldierShoot = loadImage("imagens/Bot Wheel/shoot with FX.png");
 
-  hunter = loadImage("imagens/Huntress 2/Sprites/Character/Idle.png");
-  hunterAttack = loadImage("imagens/Huntress 2/Sprites/Character/Attack.png");
+  //hunter = loadImage("imagens/Huntress 2/Sprites/Character/Idle.png");
+  //hunterAttack = loadImage("imagens/Huntress 2/Sprites/Character/Attack.png");
 
-  arrow = loadImage("imagens/Huntress 2/Sprites/Arrow/Move.png");
+  //arrow = loadImage("imagens/Huntress 2/Sprites/Arrow/Move.png");
 
-  ballon = loadImage("imagens/Monsters_Creatures_Fantasy/Flight.png, Take Hit.png");
+  //ballon = loadImage("imagens/Monsters_Creatures_Fantasy/Flight.png, Take Hit.png");
   
 }
 
